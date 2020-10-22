@@ -67,4 +67,4 @@ const start = async (waterBodyName, studiesLength, filename) => {
   fs.writeFile(filename, JSON.stringify(dataToStore.flat(1)), 'utf8', () => console.log("Done"));
 };
 
-start("Río Santiago", 1, "dataTest.json");
+start("Río Santiago", 12, "dataTest.json");
