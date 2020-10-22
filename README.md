@@ -19,3 +19,9 @@ Because the service is provided by a open server from government, and does not e
 ```js
 const limit = pLimit(2);
 ```
+
+The process generate a json file, if you need a csv file i recommend to use a tool like this https://www.npmjs.com/package/json2csv
+
+```bash
+json2csv -i data.json -o data.csv
+```
