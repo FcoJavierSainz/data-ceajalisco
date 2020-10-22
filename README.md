@@ -10,7 +10,7 @@ Node and NPM
 ## Modifications
 If you want to change the default configuration please look at the next code.
 ```js
-//start(<WaterBody (river)>, <How many studies starting fr>, <outputfilename>);
+//start(<WaterBody (river)>, <How many studies starting from latest>, <outputfilename>);
 start("Río Santiago", 12, "dataTest.json");
 ```
 
