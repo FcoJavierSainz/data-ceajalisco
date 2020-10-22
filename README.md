@@ -5,7 +5,7 @@ Node and NPM
 
 ## How to run
 - install dependencies running `npm i`
-- install dependencies running `npm start`
+- Start the process `npm start`
 
 ## Modifications
 If you want to change the default configuration please look at the next code.
